@@ -1,0 +1,23 @@
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.on {
+  background-color: limegreen;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.off {
+  background-color: gray;
+  box-shadow: none;
+}
+
+button:active {
+  transform: scale(0.97);
+}
