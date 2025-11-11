@@ -1,16 +1,18 @@
 // toggle button challenge
 import ToggleButton from "./challenges/01_ToggleButton/ToggleButton";
 // counter challenge
-import Counter from "./challenges/01_ToggleButton/02_Counter/Counter";
-import CounterWithConfigurableSteps from "./challenges/01_ToggleButton/03_Counter-with-configurable-steps/CounterWithConfigurableSteps";
+import Counter from "./challenges/02_Counter/Counter";
 // counter with configurable steps
+import CounterWithConfigurableSteps from "./challenges/03_Counter-with-configurable-steps/CounterWithConfigurableSteps";
+import DisplayAndEditInputText from "./challenges/04_Display_and_edit_a_single_line_text/DisplayAndEditInputText";
 
 function App() {
   return (
     <div>
       {/* <ToggleButton /> */}
       {/* <Counter /> */}
-      <CounterWithConfigurableSteps />
+      {/* <CounterWithConfigurableSteps /> */}
+      <DisplayAndEditInputText />
     </div>
   );
 }

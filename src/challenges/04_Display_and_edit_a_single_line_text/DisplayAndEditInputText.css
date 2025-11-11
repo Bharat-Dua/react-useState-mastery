@@ -1,0 +1,122 @@
+/* Container layout */
+.dei-container {
+  max-width: 640px;
+  margin: 48px auto;
+  padding: 28px;
+  text-align: center;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfbff 100%);
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(19, 23, 34, 0.08);
+  border: 1px solid rgba(20, 24, 40, 0.04);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+}
+
+/* Headings */
+.dei-title {
+  font-size: 1.6rem;
+  margin: 0 0 6px;
+  color: #0f1724;
+}
+
+.dei-sub {
+  margin: 0 0 18px;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+/* Input row */
+.dei-input-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+/* Input field */
+.dei-input {
+  width: 320px;
+  max-width: 70%;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e6e9ef;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  transition: border-color 160ms ease, box-shadow 160ms ease,
+    transform 120ms ease;
+  outline: none;
+}
+
+.dei-input:focus {
+  border-color: #5b8dfa;
+  box-shadow: 0 4px 18px rgba(91, 141, 250, 0.12);
+  transform: translateY(-1px);
+}
+
+/* Clear button */
+.dei-clear-btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: #f1f5f9;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 140ms ease, transform 120ms ease;
+}
+
+.dei-clear-btn:hover {
+  background: #e2e8f0;
+  transform: translateY(-1px);
+}
+
+/* Output area */
+.dei-output {
+  margin-top: 6px;
+  color: #0b1220;
+  font-size: 1rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.dei-text {
+  color: #0b1220;
+  background: rgba(17, 24, 39, 0.04);
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-left: 6px;
+  display: inline-block;
+  font-weight: 500;
+  max-width: 100%;
+  word-break: break-word; /* break very long words */
+  overflow-wrap: anywhere; /* modern, breaks even long strings */
+  white-space: normal;
+}
+
+.dei-muted {
+  color: #94a3b8;
+}
+
+/* Small helper: screen-reader-only label */
+.sr-only {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .dei-input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .dei-input-row {
+    gap: 8px;
+    padding: 0 12px;
+  }
+}
