@@ -1,10 +1,13 @@
 // toggle button challenge
 import ToggleButton from "./challenges/01_ToggleButton/ToggleButton";
+// counter challenge
+import Counter from "./challenges/01_ToggleButton/02_Counter/Counter";
 
 function App() {
   return (
     <div>
-      <ToggleButton />
+      {/* <ToggleButton /> */}
+      <Counter />
     </div>
   );
 }
