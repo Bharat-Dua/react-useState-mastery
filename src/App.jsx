@@ -2,12 +2,15 @@
 import ToggleButton from "./challenges/01_ToggleButton/ToggleButton";
 // counter challenge
 import Counter from "./challenges/01_ToggleButton/02_Counter/Counter";
+import CounterWithConfigurableSteps from "./challenges/01_ToggleButton/03_Counter-with-configurable-steps/CounterWithConfigurableSteps";
+// counter with configurable steps
 
 function App() {
   return (
     <div>
       {/* <ToggleButton /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <CounterWithConfigurableSteps />
     </div>
   );
 }
