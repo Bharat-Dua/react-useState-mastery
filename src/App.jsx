@@ -8,6 +8,7 @@ import DisplayAndEditInputText from "./challenges/04_Display_and_edit_a_single_l
 import MirrorAnInputLive from "./challenges/05_Mirror_an_input_live/MirrorAnInputLive";
 import CharacterCounter from "./challenges/06_Character_counter/CharacterCounter";
 import ShowAndHidePassword from "./challenges/07_show-hide_password/ShowAndHidePassword";
+import SimpleCheckbox from "./challenges/08_Simple_checkbox/SimpleCheckbox";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <DisplayAndEditInputText /> */}
       {/* <MirrorAnInputLive /> */}
       {/* <CharacterCounter /> */}
-      <ShowAndHidePassword />
+      {/* <ShowAndHidePassword /> */}
+      <SimpleCheckbox />
     </div>
   );
 }
