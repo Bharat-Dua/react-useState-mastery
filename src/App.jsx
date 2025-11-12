@@ -5,6 +5,7 @@ import Counter from "./challenges/02_Counter/Counter";
 // counter with configurable steps
 import CounterWithConfigurableSteps from "./challenges/03_Counter-with-configurable-steps/CounterWithConfigurableSteps";
 import DisplayAndEditInputText from "./challenges/04_Display_and_edit_a_single_line_text/DisplayAndEditInputText";
+import MirrorAnInputLive from "./challenges/05_Mirror_an_input_live/MirrorAnInputLive";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <ToggleButton /> */}
       {/* <Counter /> */}
       {/* <CounterWithConfigurableSteps /> */}
-      <DisplayAndEditInputText />
+      {/* <DisplayAndEditInputText /> */}
+      <MirrorAnInputLive />
     </div>
   );
 }

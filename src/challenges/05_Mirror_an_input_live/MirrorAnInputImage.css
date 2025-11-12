@@ -1,0 +1,89 @@
+/* MirrorAnInputImage.css */
+
+.mirror-container {
+  max-width: 520px;
+  margin: 40px auto;
+  padding: 28px;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(20, 30, 60, 0.06);
+  text-align: center;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+}
+
+.mirror-title {
+  font-size: 1.25rem;
+  margin: 0 0 8px;
+  color: #0f1724;
+}
+
+.mirror-sub {
+  margin: 0 0 18px;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.mirror-input {
+  width: 320px;
+  max-width: 70%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  transition: box-shadow 180ms ease, border-color 180ms ease,
+    transform 120ms ease;
+}
+
+.mirror-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.12);
+  transform: translateY(-1px);
+}
+
+.clear-button {
+  padding: 8px 12px;
+  background: #e2e8f0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #0f1724;
+  transition: background-color 160ms ease, transform 120ms ease;
+}
+
+.clear-button:hover {
+  background: #cbd5e1;
+}
+
+.clear-button:active {
+  transform: scale(0.97);
+}
+
+.mirror-output {
+  margin-top: 8px;
+  font-size: 1.05rem;
+  color: #0b1220;
+  min-height: 28px; /* prevents layout jump when text appears/disappears */
+  transition: color 160ms ease, opacity 180ms ease;
+}
+
+/* small helper for visually-hidden label (accessible) */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
