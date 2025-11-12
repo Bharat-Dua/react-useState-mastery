@@ -1,0 +1,68 @@
+.counter-container {
+  max-width: 560px;
+  margin: 36px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  text-align: center;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.counter-title {
+  margin: 0 0 6px;
+  font-size: 1.2rem;
+  color: #0b1220;
+}
+
+.counter-sub {
+  margin: 0 0 14px;
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.counter-textarea {
+  width: 90%;
+  max-width: 480px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  resize: vertical;
+}
+
+.counter-textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.08);
+}
+
+.counter-info {
+  margin-top: 12px;
+}
+
+.remaining-count {
+  font-weight: 600;
+  color: #0b1220;
+  transition: color 160ms ease;
+}
+
+.remaining-count.warning {
+  color: #b45309; /* amber-ish */
+}
+
+.remaining-count.limit {
+  color: #ef4444; /* red */
+}
+
+.typed-output {
+  margin-top: 10px;
+  min-height: 38px; /* avoid layout jump */
+  color: #0b1220;
+}
+
+.limit-text {
+  color: #ef4444;
+  font-weight: 600;
+  margin-top: 6px;
+}
