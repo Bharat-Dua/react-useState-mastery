@@ -7,6 +7,7 @@ import CounterWithConfigurableSteps from "./challenges/03_Counter-with-configura
 import DisplayAndEditInputText from "./challenges/04_Display_and_edit_a_single_line_text/DisplayAndEditInputText";
 import MirrorAnInputLive from "./challenges/05_Mirror_an_input_live/MirrorAnInputLive";
 import CharacterCounter from "./challenges/06_Character_counter/CharacterCounter";
+import ShowAndHidePassword from "./challenges/07_show-hide_password/ShowAndHidePassword";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <CounterWithConfigurableSteps /> */}
       {/* <DisplayAndEditInputText /> */}
       {/* <MirrorAnInputLive /> */}
-      <CharacterCounter />
+      {/* <CharacterCounter /> */}
+      <ShowAndHidePassword />
     </div>
   );
 }
