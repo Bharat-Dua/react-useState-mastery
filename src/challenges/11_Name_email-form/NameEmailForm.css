@@ -1,0 +1,66 @@
+.form-container {
+  max-width: 520px;
+  margin: 36px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(12, 17, 28, 0.06);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.user-form {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.user-form label {
+  font-size: 0.95rem;
+  color: #0f1724;
+}
+
+.user-form input {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e6e9ee;
+  outline: none;
+}
+
+.user-form input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 6px 18px rgba(59, 130, 246, 0.08);
+}
+
+.form-actions {
+  margin-top: 6px;
+}
+
+.submit-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #1d4ed8;
+}
+
+.live-preview {
+  margin-top: 18px;
+  padding-top: 8px;
+  border-top: 1px dashed #e6e9ee;
+}
+
+.muted {
+  color: #94a3b8;
+}
+
+.success {
+  margin-top: 10px;
+  color: #10b981;
+  font-weight: 600;
+}

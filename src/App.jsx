@@ -11,6 +11,7 @@ import ShowAndHidePassword from "./challenges/07_show-hide_password/ShowAndHideP
 import SimpleCheckbox from "./challenges/08_Simple_checkbox/SimpleCheckbox";
 import RadioGroup from "./challenges/09_Radio_group/RadioGroup";
 import DropdownSelect from "./challenges/10_dropdown_select/DropdownSelect";
+import NameEmailForm from "./challenges/11_Name_email-form/NameEmailForm";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <ShowAndHidePassword /> */}
       {/* <SimpleCheckbox /> */}
       {/* <RadioGroup /> */}
-      <DropdownSelect />
+      {/* <DropdownSelect /> */}
+      <NameEmailForm />
     </div>
   );
 }
