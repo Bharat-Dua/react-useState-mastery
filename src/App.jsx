@@ -9,6 +9,7 @@ import MirrorAnInputLive from "./challenges/05_Mirror_an_input_live/MirrorAnInpu
 import CharacterCounter from "./challenges/06_Character_counter/CharacterCounter";
 import ShowAndHidePassword from "./challenges/07_show-hide_password/ShowAndHidePassword";
 import SimpleCheckbox from "./challenges/08_Simple_checkbox/SimpleCheckbox";
+import RadioGroup from "./challenges/09_Radio_group/RadioGroup";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <MirrorAnInputLive /> */}
       {/* <CharacterCounter /> */}
       {/* <ShowAndHidePassword /> */}
-      <SimpleCheckbox />
+      {/* <SimpleCheckbox /> */}
+      <RadioGroup />
     </div>
   );
 }
