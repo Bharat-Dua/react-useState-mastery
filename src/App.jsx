@@ -10,6 +10,7 @@ import CharacterCounter from "./challenges/06_Character_counter/CharacterCounter
 import ShowAndHidePassword from "./challenges/07_show-hide_password/ShowAndHidePassword";
 import SimpleCheckbox from "./challenges/08_Simple_checkbox/SimpleCheckbox";
 import RadioGroup from "./challenges/09_Radio_group/RadioGroup";
+import DropdownSelect from "./challenges/10_dropdown_select/DropdownSelect";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <CharacterCounter /> */}
       {/* <ShowAndHidePassword /> */}
       {/* <SimpleCheckbox /> */}
-      <RadioGroup />
+      {/* <RadioGroup /> */}
+      <DropdownSelect />
     </div>
   );
 }
